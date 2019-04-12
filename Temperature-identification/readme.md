@@ -1,5 +1,5 @@
 test.py是对图像方框中温度进行识别的测试代码，可以针对指定文件夹下的所有带温度的红外图jpg格式文件、bmp位图格式文件分别截取对应位置的温度进行识别，并将
-文件名和对应温度分行保存为txt文本格式，可见文件result.txt。
+文件名和对应温度分行保存为txt文本格式，可见文件result.txt。				
 按照第一种方案，使用的是PIl库和现有的pyocr工具-tesseract（谷歌开源）。官方的字库识别范围广但精度不够，可使用jTessBoxEditor工具训练num字库来提高针对
 性。tesseract工具（必须安装，可参考网上教程）及根据图像中温度的数字样式训练好的num字库(num.traineddata)均在当前文件夹中。jTessBoxEditor工具也附带
 上传,可供使用学习。
