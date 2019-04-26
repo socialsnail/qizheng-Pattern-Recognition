@@ -1,0 +1,11 @@
+tesseract安装
+1. 将页面提供的tesseract-ocr-setup-4.00.00dev-201705.exe安装，选好安装路径后一路默认即可
+2. 将安装路径（例如C:\Program Files (x86)\Tesseract-OCR）加入系统环境变量path中去
+3. 继续新建TESSDATA_PREFIX变量名，变量值为C:\Program Files (x86)\Tesseract-OCR\tessdata
+4. 将页面提供的num.traineddata拷贝至tessdata文件夹
+
+python库安装（python3.7)
+1. pip install Pillow 
+2. pip install pytesseract
+
+
